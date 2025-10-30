@@ -1,16 +1,43 @@
-# React + Vite
+# 🌍 Earthquake Visualizer  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive dashboard that displays real-time earthquake data on a world map, built using **React**, **Tailwind CSS**, and **React-Leaflet**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👩‍💻 Candidate Details
+- **Name:** Swapna Pochampally  
+- **Candidate ID:** Naukri1025  
+- **Submission For:** Aganitha Cognitivi Solutions – Full Stack Developer Take-Home Challenge  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔗 Live Demo
+[View on Vercel](https://earthquake-visualizer-qjcg-1vqknhoww.vercel.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Tech Stack
+- React 18 + Vite  
+- Tailwind CSS  
+- React-Leaflet (Map Visualization)  
+- Axios (API Requests)  
+- Date-Fns (Data Formatting)
+
+---
+
+## ✨ Features
+- Fetches live earthquake data from the USGS API  
+- Interactive map showing earthquake locations  
+- Magnitude-based filter slider  
+- Responsive and mobile-friendly design  
+- Clean UI with Tailwind styling  
+
+---
+
+## 🚀 How to Run Locally
+```bash
+git clone https://github.com/swapnapochampally/earthquake-visualizer.git
+cd earthquake-visualizer
+npm install
+npm run dev
+
